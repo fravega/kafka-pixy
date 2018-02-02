@@ -2,12 +2,6 @@
 
 
 [[projects]]
-  name = "github.com/Shopify/sarama"
-  packages = ["."]
-  revision = "3b1b38866a79f06deddf0487d5c27ba0697ccd65"
-  version = "v1.15.0"
-
-[[projects]]
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
   revision = "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d"
@@ -90,8 +84,8 @@
     "kafkahook",
     "levelfilter"
   ]
-  revision = "e1f5c6d5171b12fef02451779c85dd2ec322607b"
-  version = "v1.1.1"
+  revision = "901b4e66581c5031b05ec3e7686c4b4eb52aa5d2"
+  version = "v1.1.2"
 
 [[projects]]
   name = "github.com/mailgun/sarama"
@@ -241,6 +235,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "9f620053ad8fcdb8ff08ec8acfbfc27ccb38dac67a14a6a402d5d9864f8d911a"
+  inputs-digest = "2349b824a1f070c2d6d1728dbd5c615dc5d29371f48f517fe64a8b8b37d03d44"
   solver-name = "gps-cdcl"
   solver-version = 1
