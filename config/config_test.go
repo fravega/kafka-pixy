@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Shopify/sarama"
+	"github.com/mailgun/sarama"
 	. "gopkg.in/check.v1"
 )
 

@@ -4,11 +4,11 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/kafka-pixy/actor"
 	"github.com/mailgun/kafka-pixy/config"
 	"github.com/mailgun/kafka-pixy/testhelpers"
 	"github.com/mailgun/kafka-pixy/testhelpers/kafkahelper"
+	"github.com/mailgun/sarama"
 	"github.com/pkg/errors"
 	. "gopkg.in/check.v1"
 )

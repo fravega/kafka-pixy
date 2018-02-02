@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/kazoo-go"
+	"github.com/mailgun/sarama"
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v2"
 )

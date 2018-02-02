@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/holster/errors"
 	"github.com/mailgun/holster/stack"
 	"github.com/mailgun/logrus-hooks/common"
+	"github.com/mailgun/sarama"
 	"github.com/mailru/easyjson/jwriter"
 	"github.com/sirupsen/logrus"
 )

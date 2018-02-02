@@ -6,7 +6,6 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/kafka-pixy/actor"
 	"github.com/mailgun/kafka-pixy/admin"
 	"github.com/mailgun/kafka-pixy/consumer"
@@ -14,6 +13,7 @@ import (
 	"github.com/mailgun/kafka-pixy/gen/golang"
 	"github.com/mailgun/kafka-pixy/offsetmgr"
 	"github.com/mailgun/kafka-pixy/proxy"
+	"github.com/mailgun/sarama"
 	"github.com/pkg/errors"
 	"github.com/samuel/go-zookeeper/zk"
 	"golang.org/x/net/context"

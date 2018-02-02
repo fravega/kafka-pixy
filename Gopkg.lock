@@ -4,8 +4,8 @@
 [[projects]]
   name = "github.com/Shopify/sarama"
   packages = ["."]
-  revision = "bbdbe644099b7fdc8327d5cc69c030945188b2e9"
-  version = "v1.13.0"
+  revision = "3b1b38866a79f06deddf0487d5c27ba0697ccd65"
+  version = "v1.15.0"
 
 [[projects]]
   name = "github.com/davecgh/go-spew"
@@ -43,7 +43,13 @@
 
 [[projects]]
   name = "github.com/golang/protobuf"
-  packages = ["proto","ptypes","ptypes/any","ptypes/duration","ptypes/timestamp"]
+  packages = [
+    "proto",
+    "ptypes",
+    "ptypes/any",
+    "ptypes/duration",
+    "ptypes/timestamp"
+  ]
   revision = "8ee79997227bf9b34611aee7946ae64735e6fd93"
 
 [[projects]]
@@ -63,25 +69,44 @@
 
 [[projects]]
   name = "github.com/mailgun/holster"
-  packages = ["clock","errors","stack"]
+  packages = [
+    "clock",
+    "errors",
+    "stack"
+  ]
   revision = "c9cf579936fb68a2d2f8d7d3171a8e337b0a9fd7"
   version = "v1.4.0"
 
 [[projects]]
-  branch = "maxim/develop"
+  branch = "master"
   name = "github.com/mailgun/kazoo-go"
   packages = ["."]
-  revision = "f4bef9a1200c39757507509560b885415b8ad558"
+  revision = "f72d8611297a7cf105da904c04198ad701a60101"
 
 [[projects]]
   name = "github.com/mailgun/logrus-hooks"
-  packages = ["common","kafkahook","levelfilter"]
+  packages = [
+    "common",
+    "kafkahook",
+    "levelfilter"
+  ]
   revision = "e1f5c6d5171b12fef02451779c85dd2ec322607b"
   version = "v1.1.1"
 
 [[projects]]
+  name = "github.com/mailgun/sarama"
+  packages = ["."]
+  revision = "bbdbe644099b7fdc8327d5cc69c030945188b2e9"
+  version = "v1.13.0"
+
+[[projects]]
   name = "github.com/mailru/easyjson"
-  packages = [".","buffer","jlexer","jwriter"]
+  packages = [
+    ".",
+    "buffer",
+    "jlexer",
+    "jwriter"
+  ]
   revision = "2f5df55504ebc322e4d52d34df6a1f5b503bf26d"
 
 [[projects]]
@@ -101,12 +126,6 @@
   version = "v0.8.0"
 
 [[projects]]
-  name = "github.com/pmezard/go-difflib"
-  packages = ["difflib"]
-  revision = "792786c7400a136282c1664665ae0a8db921c6c2"
-  version = "v1.0.0"
-
-[[projects]]
   branch = "master"
   name = "github.com/rcrowley/go-metrics"
   packages = ["."]
@@ -120,7 +139,10 @@
 
 [[projects]]
   name = "github.com/sirupsen/logrus"
-  packages = [".","hooks/syslog"]
+  packages = [
+    ".",
+    "hooks/syslog"
+  ]
   revision = "7f976d3a76720c4c27af2ba716b85d2e0a7e38b1"
   version = "v1.0.1"
 
@@ -139,7 +161,15 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
-  packages = ["context","http2","http2/hpack","idna","internal/timeseries","lex/httplex","trace"]
+  packages = [
+    "context",
+    "http2",
+    "http2/hpack",
+    "idna",
+    "internal/timeseries",
+    "lex/httplex",
+    "trace"
+  ]
   revision = "66aacef3dd8a676686c7ae3716979581e8b03c47"
 
 [[projects]]
@@ -150,7 +180,17 @@
 [[projects]]
   branch = "master"
   name = "golang.org/x/text"
-  packages = ["internal/gen","internal/triegen","internal/ucd","secure/bidirule","transform","unicode/bidi","unicode/cldr","unicode/norm","unicode/rangetable"]
+  packages = [
+    "internal/gen",
+    "internal/triegen",
+    "internal/ucd",
+    "secure/bidirule",
+    "transform",
+    "unicode/bidi",
+    "unicode/cldr",
+    "unicode/norm",
+    "unicode/rangetable"
+  ]
   revision = "e113a52b01bdd1744681b6ce70c2e3d26b58d389"
 
 [[projects]]
@@ -161,7 +201,23 @@
 
 [[projects]]
   name = "google.golang.org/grpc"
-  packages = [".","codes","connectivity","credentials","grpclb/grpc_lb_v1/messages","grpclog","internal","keepalive","metadata","naming","peer","stats","status","tap","transport"]
+  packages = [
+    ".",
+    "codes",
+    "connectivity",
+    "credentials",
+    "grpclb/grpc_lb_v1/messages",
+    "grpclog",
+    "internal",
+    "keepalive",
+    "metadata",
+    "naming",
+    "peer",
+    "stats",
+    "status",
+    "tap",
+    "transport"
+  ]
   revision = "f92cdcd7dcdc69e81b2d7b338479a19a8723cfa3"
   version = "v1.6.0"
 
@@ -185,6 +241,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "98d73c7f747088453b3a230c29c1caf7fdc1d15f3e6ed2e981f35916d339b87a"
+  inputs-digest = "9f620053ad8fcdb8ff08ec8acfbfc27ccb38dac67a14a6a402d5d9864f8d911a"
   solver-name = "gps-cdcl"
   solver-version = 1

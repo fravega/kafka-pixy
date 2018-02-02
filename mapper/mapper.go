@@ -5,12 +5,12 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/holster/clock"
 	"github.com/mailgun/kafka-pixy/actor"
 	"github.com/mailgun/kafka-pixy/config"
 	"github.com/mailgun/kafka-pixy/none"
 	"github.com/mailgun/kafka-pixy/prettyfmt"
+	"github.com/mailgun/sarama"
 )
 
 // T maintains mapping of workers that generate requests to executors. An

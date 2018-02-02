@@ -4,12 +4,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/kafka-pixy/actor"
 	"github.com/mailgun/kafka-pixy/config"
 	"github.com/mailgun/kafka-pixy/consumer"
 	"github.com/mailgun/kafka-pixy/mapper"
 	"github.com/mailgun/kafka-pixy/none"
+	"github.com/mailgun/sarama"
 	"github.com/pkg/errors"
 )
 

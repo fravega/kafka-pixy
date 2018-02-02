@@ -3,8 +3,8 @@ package service
 import (
 	"testing"
 
-	"github.com/Shopify/sarama"
-	pb "github.com/mailgun/kafka-pixy/gen/golang"
+	"github.com/mailgun/kafka-pixy/gen/golang"
+	"github.com/mailgun/sarama"
 	. "gopkg.in/check.v1"
 )
 

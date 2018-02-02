@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"log/syslog"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/kafka-pixy/config"
 	"github.com/mailgun/logrus-hooks/kafkahook"
 	"github.com/mailgun/logrus-hooks/levelfilter"
+	"github.com/mailgun/sarama"
 	"github.com/pkg/errors"
 	"github.com/samuel/go-zookeeper/zk"
 	log "github.com/sirupsen/logrus"

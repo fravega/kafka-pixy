@@ -4,7 +4,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/kafka-pixy/actor"
 	"github.com/mailgun/kafka-pixy/admin"
 	"github.com/mailgun/kafka-pixy/config"
@@ -12,6 +11,7 @@ import (
 	"github.com/mailgun/kafka-pixy/consumer/consumerimpl"
 	"github.com/mailgun/kafka-pixy/offsetmgr"
 	"github.com/mailgun/kafka-pixy/producer"
+	"github.com/mailgun/sarama"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 )

@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/holster/clock"
 	"github.com/mailgun/kafka-pixy/actor"
 	"github.com/mailgun/kafka-pixy/config"
 	"github.com/mailgun/kafka-pixy/none"
 	"github.com/mailgun/kafka-pixy/testhelpers"
+	"github.com/mailgun/sarama"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	. "gopkg.in/check.v1"

@@ -16,14 +16,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Shopify/sarama"
 	"github.com/mailgun/kafka-pixy/actor"
 	"github.com/mailgun/kafka-pixy/config"
-	pb "github.com/mailgun/kafka-pixy/gen/golang"
+	"github.com/mailgun/kafka-pixy/gen/golang"
 	"github.com/mailgun/kafka-pixy/server/httpsrv"
 	"github.com/mailgun/kafka-pixy/testhelpers"
 	"github.com/mailgun/kafka-pixy/testhelpers/kafkahelper"
 	"github.com/mailgun/kazoo-go"
+	"github.com/mailgun/sarama"
 	"github.com/pkg/errors"
 	. "gopkg.in/check.v1"
 )
