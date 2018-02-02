@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  name = "github.com/Shopify/sarama"
+  packages = ["."]
+  revision = "3b1b38866a79f06deddf0487d5c27ba0697ccd65"
+  version = "v1.15.0"
+
+[[projects]]
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
   revision = "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d"
@@ -44,7 +50,8 @@
     "ptypes/duration",
     "ptypes/timestamp"
   ]
-  revision = "8ee79997227bf9b34611aee7946ae64735e6fd93"
+  revision = "925541529c1fa6821df4e44ce2723319eb2be768"
+  version = "v1.0.0"
 
 [[projects]]
   name = "github.com/golang/snappy"
@@ -197,9 +204,13 @@
   name = "google.golang.org/grpc"
   packages = [
     ".",
+    "balancer",
+    "balancer/base",
+    "balancer/roundrobin",
     "codes",
     "connectivity",
     "credentials",
+    "encoding",
     "grpclb/grpc_lb_v1/messages",
     "grpclog",
     "internal",
@@ -207,13 +218,16 @@
     "metadata",
     "naming",
     "peer",
+    "resolver",
+    "resolver/dns",
+    "resolver/passthrough",
     "stats",
     "status",
     "tap",
     "transport"
   ]
-  revision = "f92cdcd7dcdc69e81b2d7b338479a19a8723cfa3"
-  version = "v1.6.0"
+  revision = "6b51017f791ae1cfbec89c52efdf444b13b550ef"
+  version = "v1.9.2"
 
 [[projects]]
   branch = "v1"
@@ -235,6 +249,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "2349b824a1f070c2d6d1728dbd5c615dc5d29371f48f517fe64a8b8b37d03d44"
+  inputs-digest = "735f86a44186580bac608c62cc406321150527a156f6d043276d07dbb0eea801"
   solver-name = "gps-cdcl"
   solver-version = 1
